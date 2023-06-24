@@ -14,7 +14,7 @@ export default defineComponent({
            class="animate-spin w-6 h-6 ml-2"
       />
       <p class="text-base my-4 mx-2 font-bold text-black ">
-        App em construção...
+        App em desenvolvimento...
       </p>
     </div>
 
