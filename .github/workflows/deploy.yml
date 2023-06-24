@@ -36,7 +36,8 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-          
+          cache-dependency-path: './jisc/yarn.lock'
+
       - name: Install dependencies
         run: yarn install
         working-directory: ./jisc
